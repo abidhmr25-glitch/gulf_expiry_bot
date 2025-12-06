@@ -2,3 +2,4 @@ gradio
 reportlab
 pandas
 python-dotenv
+fpdf2
