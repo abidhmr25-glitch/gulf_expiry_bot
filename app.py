@@ -781,7 +781,7 @@ def generate_pdf(text: str, filename: str) -> str:
         safe_lines.append(safe_line)
 
     for line in safe_lines:
-        pdf.multi_cell(0, 8, line)
+        pdf.multi_cell(190, 8, line)  # use fixed width instead of 0
 
     output_path = filename
     pdf.output(output_path)
@@ -790,7 +790,8 @@ def generate_pdf(text: str, filename: str) -> str:
 
 # ---------- UI (GRADIO) ----------
 
-with gr.Blocks(title="Gulf Fines & Expiry Helper") as demo:
+with gr.Blocks(title="" \
+" Fines & Expiry Helper") as demo:
     gr.Markdown(
         "# Gulf Fines & Expiry Helper – Demo\n"
         "Track expiries for yourself, your family, and your company staff.\n"
