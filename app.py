@@ -1090,5 +1090,7 @@ with gr.Blocks(title="Gulf Fines & Expiry Helper") as demo:
 
 
 if __name__ == "__main__":
-    demo.launch()
-print("Github sync test")
+    import os
+    port = int(os.environ.get("PORT", 7860))  # Render provides PORT automatically
+    demo.launch(server_name="0.0.0.0", server_port=port)
+
