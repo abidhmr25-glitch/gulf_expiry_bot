@@ -8,7 +8,7 @@ import gradio as gr
 
 # ---------- CONFIG ----------
 
-DATA_FILE = "data.json"
+from config import DATA_FILE
 
 DOC_TYPES = [
     "Emirates ID",
