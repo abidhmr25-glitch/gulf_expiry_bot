@@ -1,83 +1,76 @@
 {
   "profiles": {
     "Emirates ID": {
-      "expiry": "2026-05-10",
-      "reminder_days": 30
+      "docs": {},
+      "history": []
     },
     "Visa": {
-      "expiry": "2025-12-01",
-      "reminder_days": 30
+      "docs": {},
+      "history": []
     },
     "Passport": {
-      "expiry": "2027-01-01",
-      "reminder_days": 60
+      "docs": {},
+      "history": []
     },
     "Car Insurance": {
-      "expiry": "2025-03-10",
-      "reminder_days": 15
+      "docs": {},
+      "history": []
     },
     "Tenancy Contract": {
-      "expiry": "2025-04-01",
-      "reminder_days": 30
+      "docs": {},
+      "history": []
     },
     "Self": {
-      "Emirates ID": {
-        "expiry": "2026-05-10",
-        "reminder_days": 30
+      "docs": {
+        "Emirates ID": {
+          "expiry": "2026-05-10",
+          "reminder_days": 30
+        },
+        "Visa": {
+          "expiry": "2025-12-01",
+          "reminder_days": 30
+        },
+        "Driving License": {
+          "expiry": "2025-05-10",
+          "reminder_days": 30
+        },
+        "Passport": {
+          "expiry": "2027-01-01",
+          "reminder_days": 60
+        },
+        "Car Insurance": {
+          "expiry": "2025-03-10",
+          "reminder_days": 15
+        },
+        "Tenancy Contract": {
+          "expiry": "2025-04-01",
+          "reminder_days": 30
+        }
       },
-      "Visa": {
-        "expiry": "2025-12-01",
-        "reminder_days": 30
-      },
-      "Driving License": {
-        "expiry": "2025-05-10",
-        "reminder_days": 30
-      },
-      "Passport": {
-        "expiry": "2027-01-01",
-        "reminder_days": 60
-      },
-      "Car Insurance": {
-        "expiry": "2025-03-10",
-        "reminder_days": 15
-      },
-      "Tenancy Contract": {
-        "expiry": "2025-04-01",
-        "reminder_days": 30
-      }
+      "history": []
     },
-    "wife": {}
+    "wife": {
+      "docs": {},
+      "history": []
+    },
+    "SelfDemo_User": {
+      "docs": {
+        "Visa": {
+          "expiry": "2030-01-01",
+          "reminder_days": 30
+        }
+      },
+      "history": [
+        {
+          "timestamp": "2025-12-06 00:54",
+          "note": "Profile updated with 1 documents."
+        }
+      ]
+    }
   },
   "companies": {
     "My Company": {
-      "employees": {
-        "1": {
-          "name": "My Company",
-          "role": "Driver",
-          "docs": {
-            "Emirates ID": {
-              "expiry": "2025-10-15",
-              "reminder_days": 30
-            },
-            "Visa": {
-              "expiry": "2026-01-10",
-              "reminder_days": 30
-            },
-            "Passport": {
-              "expiry": "2028-01-01",
-              "reminder_days": 90
-            },
-            "Car Insurance": {
-              "expiry": "2025-03-05",
-              "reminder_days": 15
-            },
-            "Tenancy Contract": {
-              "expiry": "2025-06-01",
-              "reminder_days": 30
-            }
-          }
-        }
-      }
+      "employees": []
     }
   }
 }
